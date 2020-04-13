@@ -14,19 +14,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="No Binding" />
+        android:text="No Binding"
+        android:onClick="showNoBinding"/>
 
     <TextView
         android:id="@+id/view_binding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="View Binding" />
+        android:text="View Binding"
+        android:onClick="showViewBinding"/>
 
     <TextView
         android:id="@+id/data_binding"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="Data Binding" />
+        android:text="Data Binding"
+        android:onClick="showDataBinding"/>
+
+    <TextView
+        android:id="@+id/live_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Live Data"
+        android:onClick="showLiveData"/>
 </LinearLayout>

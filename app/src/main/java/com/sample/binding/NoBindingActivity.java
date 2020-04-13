@@ -5,6 +5,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+/**
+ * 일반적으로 데이터를 화면에 표시하는 절차는
+ * 1. 각 항목을 표시할 뷰객체의 레퍼런스를 클래스에 선언하고, onCreate 내에서 findViewById로 객체를 레퍼런스에 설정한다
+ * 2. 데이터가 준비되면 각 항목별 뷰객체의 레퍼런스를 가지고 setText등응ㄹ 통해 값을 설정한다
+ *
+ * Here is the general process to display information
+ * 1. Declare references in class for each information and assign view object by using findViewById onCreate
+ * 2. After fetch information, set value for each information by using setText, etc.
+ */
+
 public class NoBindingActivity extends AppCompatActivity {
 
     private TextView nameView;
