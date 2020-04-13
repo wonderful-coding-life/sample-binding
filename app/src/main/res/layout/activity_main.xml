@@ -40,4 +40,12 @@
         android:padding="16dp"
         android:text="Live Data"
         android:onClick="showLiveData"/>
+
+    <TextView
+        android:id="@+id/view_model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="View Model"
+        android:onClick="showViewModel"/>
 </LinearLayout>

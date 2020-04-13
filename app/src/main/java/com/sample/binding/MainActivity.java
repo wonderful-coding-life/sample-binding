@@ -36,4 +36,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LiveDataActivity.class);
         startActivity(intent);
     }
+
+    public void showViewModel(View view) {
+        Intent intent = new Intent(this, ViewModelActivity.class);
+        startActivity(intent);
+    }
 }
